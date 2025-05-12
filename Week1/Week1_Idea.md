@@ -47,6 +47,13 @@ Credit Constraints, Underbanked Households.
   @pinardon2023crowding concept of financial crowding out, but applied
   to subprime credit markets.
 
+### Juan's thoughts.
+
+This is interesting. Now, perhaps the changes in MPCs and the use of payday loans depend on an underlying characteristic of these households. I seem to understand that you think that the presence of payday lenders changes the MPC of the households because they nudge them to be more indebted? Think of clarifying this further. Is it payday lenders driving MPCs, or a population characteristic driving both their MPC and the presence of this type of lenders.
+
+Try to think how much variation is there between states in payday regulations.
+
+
 ## 2. Financial Inclusion and the Transmission of Fiscal Multipliers 
 
 - **Motivation:** According to data from the Survey of Consumer Finance
@@ -74,3 +81,12 @@ Credit Constraints, Underbanked Households.
 - **Connection to Literature:** Builds on @woodford2011simple and
   @pinardon2023crowding by testing how financial frictions affect fiscal
   transmission and crowding out from limited financial infastructure.
+
+
+  ### Juan's thoughts.
+
+I think this second idea highlights that the heterogenous results can go either way. Maybe areas with financially constrained households are more responsive to demand shocks. Maybe they need the financial market to borrow against future expected income growth, and so the responses are more muted. How can you think about these different channels? What can you measure in the data?
+
+I'm going to give you an invitation. I think these ideas on financial inclusion are interesting, but I think you are overinvested in one topic, which can be risky. I'm going to suggest that for next week, you try to think of two ideas that have nothing to do with financial exclusion. Don't take this as an assessment on the potential of these ideas, but rather as an invitation to diversify your risks.
+
+

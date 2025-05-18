@@ -136,6 +136,13 @@
   regional volatility measures and political alignment into its forward
   guidance communication to better stabilize inflation expectations.
 
+
+### Juan's thoughts.
+
+Hi Zorah,
+
+I like this line of thinking. I recommend that you look at the work of Oliver Pfauti from UT Austin on attention and and inflation, it is very good. I think the literature on inattention is very structural, and it would be good to think if you can find a testable implication of it. But read Oliver's work and tell me if you develop this further.
+
 ## 2. Intrastate Phillips Curve: Alternative Heterogeneity? 
 
 The existing literature predominantly examines the Phillips Curve at the
@@ -165,6 +172,13 @@ states. One potential limitation is the sufficiency of sample sizes for
 subgroup analysis within smaller states; however, pooling across years
 or using grouped estimators could mitigate this concern.
 
+### Juan's thoughts.
+
+I think this is good. Two papers for you to check are one by Michael Weber, Who Feels the Boom? Labor Market Tightness and the Heterogenous Employment Effects of Monetary Policy, and the other by Munseob on the effects on different demographic groups of monetary policy. 
+
+A couple of remarks. The Phillips curve reflects the pricing decisions of firms, which of course depends on the type of workers they hire. Another angle could be how different demographic groups change their demand after interest rates change. This would be about estimating the IS curve (or Euler equation) for different groups of households. Let me know if that makes sense.
+
+
 ## 3. Sectoral Phillips Curves in the Gig Economy 
 
 Another random thought: rapid expansion of the gig economy introduces
@@ -174,3 +188,8 @@ with minimal frictions, reducing the wage pressure traditionally
 associated with low unemployment. Another extension of the Herreno and
 Pedemonte (2022) analysis might be creating a TANK model where locations
 differ by the size of the gig economy?
+
+
+### Juan's thoughts.
+
+I struggled to see this one a little bit more. But maybe you want to think more about it and let me know.

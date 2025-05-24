@@ -1,0 +1,151 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath, amssymb, geometry, graphicx, natbib, setspace}
+\geometry{margin=0.95in}
+\bibliographystyle{apalike}
+
+
+\title{Week 3: Macroeconomics of Investment with Heterogeneity}
+\author{Zorah Zafari}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Readings:}
+\begin{enumerate}
+    \item Kekre Lenel (2022)
+    \begin{itemize}
+        \item Expansionary monetary policy lowers risk premia 
+        \item Expansionary monetary policy must change the covariance between the relevant SDF and stock return. 
+        \item When the central bank lowers rates, inflation rises. This dilutes debt holding of more risk averse housholds. Wealth tilts towards people with more risk tolerance who need less compensation for taking risk. 
+    \end{itemize}
+    \item Bierdel, Drenik, Herreno, Ottonello (2025)
+    \begin{itemize}
+        \item How capital heterogeneity and asymmetric information affect the macroeconomy? 
+        \item This paper is motivated by two ideas: 
+        \begin{enumerate}
+            \item Capital markets are illiquid and involve delayed trade
+            \item In illiquid markets, asymmetric information distorts terms-of trade. 
+        \end{enumerate}
+        \item They study asymmetric information (relationship between prices and duration) by measuring the liquidity of different capital units listed for trade. 
+        \item Capital heterogeneity and trading frictions in capital markets have important macro implications. Larger elasticity of economic activity to changes in degree of asymmetric information. 
+        \item Transmission mechanism: liquidity of capital and its effects on investment and capital allocation. 
+        \item Role for studying policies aimed at preventing signaling.
+    \end{itemize}
+
+    \item Ottonello Winberry (2022)
+    \begin{itemize}
+        \item They study the investment channel of monetary policy. Investment is the most cyclical component of aggregate demand. 
+        \item Which firms respond more the expansionary policies?
+        \begin{enumerate}
+            \item More constrainted firms: since expansionary eases financial frictions, more constrained firms may respond more which gives a financial accelerator story. 
+            \item Less constrained firms: more constrained firms have steeper marginal cost curves so they will react less to the same aggregate demand shock.
+        \end{enumerate}
+        \item They show that low-risk firms (those with low leverage and high distance to default) drive the investment response to expansionary monetary policy, since these firms face flatter marginal costs of financing investment, making them more sensitive to interest rate cuts. This result  challenges the conventional financial accelerator intuition,which predicts that firms facing tighter financial constraints (high-risk firms) should respond more strongly to monetary policy because of amplified effects through external finance premia. 
+    \end{itemize}
+\end{enumerate}
+
+\section{Research Ideas:}
+
+\subsection*{1. Unified Framework of Monetary Transmission: Risk, Liquidity, and Heterogeneity}
+\begin{itemize}
+\item \textbf{Question:} How do risk and capital liquidity jointly shape monetary transmission?
+\item \textbf{Conceptual Extension:}
+\begin{itemize}
+\item Bridge Kekre-Lenel and Bierdel, Drenik, Herreno, Ottonello (BDHO) by embedding capital market liquidity frictions into a heterogeneous agent New Keynesian model where capital misallocation affects the price of risk. Study how redistribution and capital reallocation jointly shape risk premia.
+\item The idea is to bridge two separate mechanisms from Kekre-Lenel (monetary policy redistributes to high MPR households and lowers the risk premium) and BDHO (asymmetric information and illiquidity in capital markets cause investment misallocation and lower output). 
+\item I am trying to propose a model where:
+\begin{enumerate}
+    \item Households are heterogenous in risk tolerance 
+    \item Capital goods are heterogenous and subject to ttrading frictions and asymmetric information. 
+    \item Monetary policy affects both the price of risk (through redistribution) and the capital allocation (through liquidity). 
+\end{enumerate}
+\item Might help answer questions like: 
+\begin{enumerate}
+    \item Does liquidity-induced improvement in capital allocation also lower the risk premium by raising the return on high-quality capital?
+    \item How do frictions in capital markets dampen or amplify redistributive channels of monetary policy?
+    \item Can policies aimed at improving liquidity be substitutes or complements to rate cuts? 
+\end{enumerate}
+\end{itemize}
+\item \textbf{Empirical Design:}
+\begin{itemize}
+\item \textbf{Goal:} Provide empirical validation for the two key channels in the model — redistribution through portfolio risk and misallocation through capital illiquidity — and test whether monetary policy affects these jointly or separately.
+\item \textbf{Data Strategy:}
+\begin{itemize}
+    \item Use household-level panel data (e.g., SCF) to:
+    \begin{itemize}
+        \item Measure heterogeneity in MPR  across household types (by wealth, age, income, education).
+        \item Link MPR variation to asset portfolio composition (e.g., shares in equity vs. bonds vs. cash).
+    \end{itemize}
+    \item Use asset-level or firm-level data (e.g., Compustat or BDHO’s Idealista data analog) to:
+    \begin{itemize}
+        \item Measure capital asset liquidity at firm or sector level (e.g., via resale duration, asset turnover, capital age).
+        \item Match firm or sector investment responses to monetary policy shocks (e.g., local projections, shift-share exposure to surprise Fed announcements).
+    \end{itemize}
+\end{itemize}
+
+\item \textbf{Empirical Tests:}
+\begin{itemize}
+    \item Household Level (Risk premium channel): Test whether MPR heterogeneity predicts heterogeneous asset revaluation following monetary shocks.
+    \[
+    \Delta \text{Wealth}_{it} = \beta_1 \cdot \text{MPR}_i \cdot \text{MP\_Shock}_t + \text{controls} + \varepsilon_{it}
+    \]
+    \item Firm/sector level (Capital allocation channel): Test whether sectors/firms with more illiquid capital exhibit weaker investment responses to monetary easing.
+    \[
+    \Delta \text{Investment}_{jt} = \beta_2 \cdot \text{IllCapital}_j \cdot \text{MP\_Shock}_t + \text{controls} + \eta_{jt}
+    \]
+    \item Joint channel: Use sectoral exposure to household types with different MPR (e.g., using input-output linkages (Flynn,Patterson,Strum 2022) or labor composition) to test whether redistribution interacts with capital liquidity.
+    \[
+    \Delta \text{Investment}_{jt} = \beta_3 \cdot \text{CapitalIlliquidity}_j \cdot \text{SectorMPRExposure}_j \cdot \text{MP\_Shock}_t + ...
+    \]
+\end{itemize}
+
+\item \textbf{Identification:}
+\begin{itemize}
+    \item Use high-frequency monetary policy shocks (e.g., Gertler-Karadi) as external instruments.
+    \item Alternatively, use cross-sectional variation in exposure to policy (e.g., regional bank dependence, interest rate passthrough, household bond/equity exposure).
+\end{itemize}
+
+%\item \textbf{Main Prediction:}
+%\begin{itemize}
+    %\item The real effects of monetary policy are strongest where \textbf{(a)} MPR heterogeneity is large, and \textbf{(b)} capital is liquid enough to reallocate. Frictions in either dimension (portfolio risk or asset illiquidity) attenuate transmission.
+%\end{itemize}
+
+\end{itemize}
+\end{itemize}
+
+
+\subsection*{2. Forward Guidance vs. Current Policy:}
+\begin{itemize}
+\item \textbf{Question:} Does MPR heterogeneity imply different effects for rate cuts versus forward guidance?
+
+\item \textbf{Background:}
+Kekre and Lenel (2022) show that monetary policy affects the risk premium by redistributing to households with high marginal propensities to take risk (MPR). This idea builds on their insight by asking: \textit{Do different types of monetary policy—current rate cuts versus forward guidance—redistribute to different households, and hence have different macroeconomic effects?}
+
+\item \textbf{Motivation:}
+Forward guidance policies primarily influence expectations about future returns and long-term rates, whereas current rate cuts affect short-term rates and immediate cash flows. If MPR heterogeneity is also tied to investment horizon or asset maturity, then the two policy types may shift wealth to different types of households. This matters because:
+\begin{itemize}
+\item Central banks have increasingly relied on forward guidance, particularly when policy rates are near the zero lower bound. This shift is documented in several papers, including:
+\begin{itemize}
+\item Campbell, Evans, Fisher, and Justiniano (2012), ``Macroeconomic Effects of Federal Reserve Forward Guidance''. Del Negro, Giannoni, and Patterson (2015), ``The Forward Guidance Puzzle''.  Swanson and Williams (2014), ``Measuring the Effect of the Zero Lower Bound on Medium- and Longer-Term Interest Rates''.
+\end{itemize}
+\item Yet, the distributional implications of forward guidance—as distinct from current policy moves—remain underexplored.
+\end{itemize}
+
+\item \textbf{Application Idea:}
+Test whether forward guidance redistributes differently from rate cuts by embedding asset maturity and horizon-dependent MPRs into a Kekre-Lenel-style heterogeneous agent model.
+
+\begin{itemize}
+\item \textbf{Theoretical Extension:}
+Introduce assets of varying maturities (e.g., short-term cash, long-term bonds, equity) and households with differing planning horizons or discount factors. Let MPR depend on the asset duration most favored by each household type.
+\item \textbf{Empirical Test:}
+\begin{itemize}
+    \item Use high-frequency monetary policy shock series that separate current rate cuts from forward guidance (e.g., Nakamura and Steinsson).
+    \item Match these to household-level portfolio data (e.g., from SCF) to study which households experience wealth revaluation under short-term vs. long-term shock channels.
+    \item Examine asset price responses by maturity (e.g., long-term bond yields, equity risk premia) to identify which risk holders benefit.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+
+\end{document}

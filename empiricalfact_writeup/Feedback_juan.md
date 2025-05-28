@@ -1,3 +1,5 @@
+ZZ: check out this article : https://sites.utexas.edu/macro/2025/04/28/whats-happening-with-inflation-expectations/
+
 Hi Zorah,
 
 Feedback below. Please send me an email when you have had the time to read it, think about it, incorporate the easy parts, and run some preliminary tests so we can chat.

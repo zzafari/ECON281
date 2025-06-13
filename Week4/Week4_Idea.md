@@ -92,6 +92,14 @@
   effectiveness, and motivate targeted interventions in the mortgage
   market to repair historic exclusion.
 
+
+
+## Juan's thoughts.
+
+This is interesting. How far can you go on the HMDA data? I think the obvious place to start looking is for moments in time where redlining was still a common practice. I agree that the LR effects are interesting, but try to find a result first.
+ 
+
+
 ## 2. Empirically Testing Sticky Expectations in HANK Models
 
 - **Motivation:**
@@ -149,3 +157,7 @@
   empirically discipline a key parameter in the Auclert et al. (2020)
   model, improve the microfoundations of HANK modeling, and contribute
   to the design of forward guidance communication strategies.
+
+  ## Juan's thoughts.
+
+  Has nobody done this?
